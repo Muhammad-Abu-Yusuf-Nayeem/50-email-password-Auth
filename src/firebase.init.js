@@ -9,7 +9,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyDRBc5vK3P-Rf6WzMTLqrNn9523sGJFflM",
   authDomain: "email-password-auth-f2295.firebaseapp.com",
   projectId: "email-password-auth-f2295",
-  storageBucket: "email-password-auth-f2295.firebasestorage.app",
+  storageBucket: "email-password-auth-f2295.appspot.com",
   messagingSenderId: "718800665428",
   appId: "1:718800665428:web:bbe0c730af3333ccb3e6c1",
 };
@@ -17,4 +17,4 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 // Initialize Firebase Authentication and get a reference to the service
-export const auth = getAuth(app); 
+export const auth = getAuth(app);
